@@ -13,7 +13,7 @@ import Jobs from './components/Jobs';
 axios.defaults.withCredentials = true;
 
 const api = axios.create({
-  baseURL: 'https://resume-builder-backend.onrender.com/api',
+  baseURL: 'https://resume-builder-backend-y017.onrender.com',
   withCredentials: true,
 });
 
